@@ -13,6 +13,8 @@ namespace AddressBookSystem
             Console.WriteLine("Welcome to Address Book Program");
             Person.AddPerson();
             Person.ListPeople();
+            Person1.AddPerson();
+            Person1.ListPeople();
             Console.ReadLine();
         }
     }

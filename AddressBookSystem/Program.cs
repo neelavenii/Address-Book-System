@@ -11,10 +11,13 @@ namespace AddressBookSystem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
-            Person.AddPerson();
-            Person.ListPeople();
-            Person1.AddPerson();
-            Person1.ListPeople();
+           // Person.AddPerson();
+            //Person.ListPeople();
+            //Person1.AddPerson();
+            //Person1.ListPeople();
+            Person2.AddPerson();
+            Person2.Modify();
+            Person2.ListPeople();
             Console.ReadLine();
         }
     }

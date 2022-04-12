@@ -46,6 +46,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Uc1Contact.cs" />
+    <Compile Include="Uc2AddContact.cs" />
+    <Compile Include="Uc3EditContact.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

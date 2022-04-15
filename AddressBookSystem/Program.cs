@@ -13,7 +13,7 @@ namespace AddressBookSystem
             Console.WriteLine("Welcome to Address Book Program");
             while (true)
             {
-                Console.WriteLine("select numbers \n1)Add Contact\n2)Modify Person\n3)listPeople\n4)delete person");
+                Console.WriteLine("select numbers \n1)Add Contact\n2)Modify Person\n3)listPeople\n4)delete person\n5)multiple persons");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch (Option)
                 {
@@ -28,6 +28,9 @@ namespace AddressBookSystem
                         break;
                     case 4:
                         Person3.Delete();
+                        break;
+                    case 5:
+                        MultiplePersons.AddPerson();
                         break;
                 }
             }
